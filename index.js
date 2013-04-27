@@ -20,3 +20,13 @@ module.exports = function (db, indexDb, map) {
   })
   return indexDb
 }
+
+//hmm, if the original object is deleted, probably want to delete the index.
+//but we'd need to map the indexes back to the original for that...
+//
+//also, it might be good to map the index to the original key,
+//and then retrive it with a lookup. this might make cleanup simpler...
+//
+//Actually, then you could check that a response is still valid on read,
+//instead of clearing it on write...
+//and also clean it up in a periodic batch job...
