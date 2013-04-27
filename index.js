@@ -1,5 +1,3 @@
-
-
 module.exports = function (db, indexDb, map) {
   
   if('string' === typeof indexDb)
