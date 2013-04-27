@@ -1,7 +1,9 @@
 # level-index
 
 Create an index on some data.
-For more complex use-cases, use [map-reduce](https://github.com/dominictarr/map-reduce)
+For more complex use-cases,
+use [level-mapped-index](https://github.com/rvagg/node-level-mapped-index)
+or [map-reduce](https://github.com/dominictarr/map-reduce)
 
 ## Example
 
