@@ -7,13 +7,14 @@
     "type": "git",
     "url": "git://github.com/dominictarr/level-index.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "levelup": "^0.18.3",
+    "node-uuid": "~1.4.1"
   },
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
-  "license": "MIT"  
+  "license": "MIT"
 }
